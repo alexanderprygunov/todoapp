@@ -1,0 +1,44 @@
+.b-slider {
+  &.slider-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    .slider-item {
+      float:left;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      outline: 0;
+
+      .slider-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        &.image-01 {
+          background-image: url('/images/slider/slide001.jpg')
+        }
+
+        &.image-02 {
+          background-image: url('/images/slider/slide002.jpg')
+        }
+
+        &.image-03 {
+          background-image: url('/images/slider/slide003.jpg')
+        }
+
+        &.image-04 {
+          background-image: url('/images/slider/slide004.jpg')
+        }
+      }
+    }
+  }
+}

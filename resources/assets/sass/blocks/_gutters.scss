@@ -1,0 +1,10 @@
+.b-margin {
+  @for $i from 5 through 50 {
+    &.margin-bottom-#{$i} {
+      margin-bottom: #{$i}px;
+    }
+    &.margin-top-#{$i} {
+      margin-top: #{$i}px;
+    }
+  }
+} 
